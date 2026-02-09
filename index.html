@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samir Aziz Moqbel Khaila - Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+  <body class="m-3">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <div class="navbar-brand">
+            <a href="#hero" class="brand-link p-3" data-i18n="brand-name">Samir Khaila</a>
+          </div>
+          <button class="navbar-toggle" id="navbar-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="navbar-menu" id="navbar-menu">
+            <li><a href="#education" data-i18n="nav-education">المؤهلات</a></li>
+            <li><a href="#experience" data-i18n="nav-experience">الخبرة</a></li>
+            <li><a href="#skills" data-i18n="nav-skills">المهارات</a></li>
+            <li><a href="#certificates" data-i18n="nav-certificates">الشهادات</a></li>
+            <li><a href="#contact" data-i18n="nav-contact">الاتصال</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Language & Theme Switch -->
+    <div class="controls-bar">
+        <div class="language-switch">
+            <button class="lang-btn active" data-lang="ar">AR</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <div class="theme-switch">
+            <button class="theme-btn" id="theme-toggle" title="Toggle Dark/Light Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="hero-content">
+                        <img src="image.jpg" alt="Samir Aziz Moqbel Khaila" class="profile-img" style="height: 300px; width: fit-content;" />
+                        <h1 data-i18n="hero-name">سمير عزيز مقبل خيله</h1>
+                        <h2 data-i18n="hero-title">وكيل الشؤون التعليمية - مدرس الكيمياء</h2>
+                        <p data-i18n="hero-desc">التطوير المستمر للوصول لأفضل النتائج في أقل وقت ممكن مع الحفاظ على الدقة والإتقان والتميز</p>
+                        <a href="resume.zip" class="cta-button" data-i18n="btn-cv" download>تحميل السيرة الذاتية</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="section-education">المؤهلات الأكاديمية</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card-custom">
+                        <div class="card-header-custom">
+                            <h3 data-i18n="edu-degree1">بكالوريوس في الكيمياء وعلوم الحياة</h3>
+                            <p>2014</p>
+                        </div>
+                        <div class="card-body-custom">
+                            <p data-i18n="edu-inst1">كلية التربية - جامعة صنعاء</p>
+                            <p data-i18n="edu-grade1">تقدير جيد جداً مع مرتبة الشرف - النسبة المئوية: 87.46%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-custom">
+                        <div class="card-header-custom">
+                            <h3 data-i18n="edu-degree2">شهادة ثانوية عامة</h3>
+                            <p>2010</p>
+                        </div>
+                        <div class="card-body-custom">
+                            <p data-i18n="edu-inst2">القسم العلمي</p>
+                            <p data-i18n="edu-grade2">تقدير ممتاز</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="section-experience">الخبرة العملية</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-custom">
+                        <div class="card-body-custom">
+                            <div class="timeline-item">
+                                <h4 data-i18n="exp-title1">وكيل الشؤون التعليمية</h4>
+                                <span class="date">2023 - 2025</span>
+                                <p data-i18n="exp-school1">مدارس اقرأ الأهلية</p>
+                                <p data-i18n="exp-desc1">وكيل للشؤون التعليمية بمدارس اقرأ الأهلية للعامين الدراسيين المتتاليين: 2023/2024 و 2024/2025</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 data-i18n="exp-title2">مدرس مادة الكيمياء</h4>
+                                <span class="date">2022 - 2023</span>
+                                <p data-i18n="exp-school2">مدارس الرشيد الحديثة</p>
+                                <p data-i18n="exp-desc2">مدرس مادة الكيمياء للعام الدراسي: 2022/2023</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 data-i18n="exp-title3">مدرس الكيمياء والأحياء والعلوم</h4>
+                                <span class="date">2019 - 2022</span>
+                                <p data-i18n="exp-school3">مدارس اقرأ الأهلية</p>
+                                <p data-i18n="exp-desc3">مدرس مادة الكيمياء والأحياء والعلوم (الفترة الصباحية) لمدة ثلاث سنوات</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 data-i18n="exp-title4">مدرس الكيمياء والأحياء</h4>
+                                <span class="date">2014 - 2018</span>
+                                <p data-i18n="exp-school4">مدرسة النجاح</p>
+                                <p data-i18n="exp-desc4">مدرس مادة الكيمياء والأحياء لمدة خمس سنوات</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="section-skills">المهارات</h2>
+            </div>
+            <div class="p-3">
+                <div class="col-lg-8 mx-auto p-3">
+                    <div class="card-custom">
+                        <div class="card-body-custom">
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span data-i18n="skill1">الكفاءة الأكاديمية</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <span style="--width: 95%"></span>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span data-i18n="skill2">المهارات الإدارية</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <span style="--width: 90%"></span>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span data-i18n="skill3">التواصل والتفاوض</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <span style="--width: 90%"></span>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span data-i18n="skill4">العمل الجماعي والمرونة</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <span style="--width: 90%"></span>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span data-i18n="skill5">المهارات التقنية</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <span style="--width: 85%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates">
+        <div class="container p-3">
+            <div class="section-title">
+                <h2 data-i18n="section-certificates">الدورات والشهادات</h2>
+            </div>
+            <div class="row g-4 p-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="certificate-card">
+                        <div class="certificate-inner">
+                            <div class="certificate-front">
+                                <div class="certificate-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3 class="certificate-title" data-i18n="cert1-title">دورة الأساليب التربوية</h3>
+                                <p class="certificate-year">2016</p>
+                                <p class="certificate-details" data-i18n="cert1-details">معهد الشوكاني، جامعة صنعاء</p>
+                            </div>
+                            <div class="certificate-back">
+                                <h3 class="certificate-title" data-i18n="cert1-back">مجال التطوير التربوي</h3>
+                                <p class="certificate-details" data-i18n="cert1-back-details">أساليب التدريس الحديثة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="certificate-card">
+                        <div class="certificate-inner">
+                            <div class="certificate-front">
+                                <div class="certificate-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <h3 class="certificate-title" data-i18n="cert2-title">دورة المهارات الحياتية</h3>
+                                <p class="certificate-year">2022</p>
+                                <p class="certificate-details" data-i18n="cert2-details">برعاية اليونيسيف</p>
+                            </div>
+                            <div class="certificate-back">
+                                <h3 class="certificate-title" data-i18n="cert2-back">مشاركة كميسر</h3>
+                                <p class="certificate-details" data-i18n="cert2-back-details">إدارة المبادرات المجتمعية والتدريب المهني</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="certificate-card">
+                        <div class="certificate-inner">
+                            <div class="certificate-front">
+                                <div class="certificate-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h3 class="certificate-title" data-i18n="cert3-title">دورات التنمية البشرية</h3>
+                                <p class="certificate-year">2016</p>
+                                <p class="certificate-details" data-i18n="cert3-details">تطوير المهارات الشخصية</p>
+                            </div>
+                            <div class="certificate-back">
+                                <h3 class="certificate-title" data-i18n="cert3-back">تحسين الأداء</h3>
+                                <p class="certificate-details" data-i18n="cert3-back-details">إدارة الوقت والمهارات الإدارية</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="certificate-card">
+                        <div class="certificate-inner">
+                            <div class="certificate-front">
+                                <div class="certificate-icon">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                                <h3 class="certificate-title" data-i18n="cert4-title">دورات المجال الصحي</h3>
+                                <p class="certificate-year">2022</p>
+                                <p class="certificate-details" data-i18n="cert4-details">عمل تطوعي</p>
+                            </div>
+                            <div class="certificate-back">
+                                <h3 class="certificate-title" data-i18n="cert4-back">التوعية الصحية</h3>
+                                <p class="certificate-details" data-i18n="cert4-back-details">مشاركة في حملات التلقيح والتوعية ضد الأمراض</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="section-contact">معلومات الاتصال</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact-phone">رقم الهاتف</h4>
+                            <p>772084515</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact-email">البريد الإلكتروني</h4>
+                            <p>sameerkhaila@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact-address">العنوان</h4>
+                            <p data-i18n="contact-address-value">صنعاء - بني مطر</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact-whatsapp">واتس آب</h4>
+                            <p>772084515</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4 data-i18n="footer-contact-title">معلومات الاتصال</h4>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+967772084515">772084515</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:sameerkhaila@gmail.com">sameerkhaila@gmail.com</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span data-i18n="footer-address">صنعاء - بني مطر، اليمن</span>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4 data-i18n="footer-social-title">تابعني على</h4>
+            <div class="social-links">
+              <a href="https://wa.me/967772084515" class="social-link" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="mailto:sameerkhaila@gmail.com" class="social-link" target="_blank" aria-label="Email" title="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4 data-i18n="footer-about-title">عني</h4>
+            <p data-i18n="footer-about-text">معلم كيمياء وعلوم حياة متخصص مع خبرة تزيد عن 10 سنوات في المجال التعليمي والإداري</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright" data-i18n="footer-copyright">© 2025 سمير عزيز مقبل خيله. جميع الحقوق محفوظة.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
